@@ -31,6 +31,7 @@ export function Spreadsheet() {
     priority: "bg-purple-100 text-purple-800",
     due: "bg-purple-100 text-purple-800",
     value: "bg-orange-100 text-orange-800",
+    plus:"bg-white"
   };
 
   return (
@@ -141,10 +142,7 @@ export function Spreadsheet() {
                 </th>
               );
             })}
-            <th
-              className="border border-gray-300 bg-gray-200 cursor-pointer"
-              style={{ width: "200px" }}
-            ></th>{" "}
+            
             {/* + column empty */}
           </tr>
         </thead>

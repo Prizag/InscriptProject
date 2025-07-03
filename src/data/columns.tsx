@@ -160,4 +160,10 @@ export const columns: ColumnDef<RowData>[] = [
     accessorKey: "value",
     cell: (info) => info.getValue(),
   },
+  {
+    id: "plus",
+    header: " ",
+    accessorKey: "plus",
+    cell: (info) => info.getValue(),
+  },
 ];
